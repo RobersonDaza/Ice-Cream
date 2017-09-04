@@ -1,7 +1,7 @@
 section{
     background: url(../img/fondo.png);
     background-size: cover;
-    min-height: 850px;
+    min-height: 100vh;
 }
 
 header .menu{
@@ -11,7 +11,17 @@ header .menu{
 header .logo{
     display: inline-block;
     text-align: center;
-    padding: 10px 0 10px 160px;
+    padding: 20px 0 10px 100px;
+}
+
+header .logo .titulo{
+    font-family: 'Leckerli One', cursive;
+    color: #000;
+    font-size: 45px;
+}
+
+header .logo a{
+    text-decoration: none;
 }
 
 #ice{
@@ -26,4 +36,218 @@ header .container-fluid .redes{
 header .container-fluid .redes nav a i{
     color: #000;
     font-size: 24px;
+}
+
+header .menu .nav{
+    text-transform: uppercase;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-weight: bold;
+}
+
+header .menu .nav li a{
+    color: #000;
+}
+
+header .menu .nav li a:hover{
+    color: #706D6D;
+}
+
+header .menu .nav .active{
+    color: #706D6D;
+}
+
+.container .row .columna{
+    padding-top: 400px;
+}
+
+.container .row .col h4{
+    color: #fff;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    /*line-height: 500px;*/
+}
+
+.container .row .col h1{
+    color: #fff;
+    /*line-height: 500px;*/
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 140px;
+    letter-spacing: 0.2em;
+}
+
+.container .row .boton .btn-menu{
+    color: #fff;
+    background: none;
+    border: 3px solid #fff;
+    border-radius: 0px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 24px;
+    padding: 5px 40px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.container .row .boton .btn-menu:hover{
+    background: #000;
+    border: 3px solid #000;
+}
+
+
+.container-fluid .section-flavors{
+    padding: 0;
+    max-height: 50%;
+}
+
+.container .col-6 .img-flavors{
+    width: 100%;
+    background-size: cover;
+    height: 300px;
+}
+
+.container-fluid .section-flavors-text h3{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    letter-spacing: 0.1em;
+    padding-top: 130px;
+}
+
+.container-fluid .section-flavors-text h4{
+    font-family: 'Leckerli One', cursive;
+}
+
+.container-fluid .section-flavors-text p{
+    padding: 30px 100px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    text-align: center;
+}
+
+.container-fluid .section-flavors-text button{
+    color: #000;
+    background: none;
+    border: 3px solid #000;
+    border-radius: 0px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 24px;
+    padding: 5px 40px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container-fluid .section-flavors-text button:hover{
+    background: #000;
+    color: #fff;
+    border: 3px solid #000;
+}
+
+#enjoy{
+    background: url(../img/enjoy.png);
+    background-size: cover;
+    min-height: 100vh;
+}
+
+
+#enjoy .row .col-enjoy{
+    padding-top: 300px;
+}
+
+
+#enjoy h1{
+    color: #fff;
+    /*line-height: 500px;*/
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 140px;
+    letter-spacing: 0.2em;
+}
+
+#enjoy h3{
+    color: #fff;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 3em;
+}
+
+#enjoy .boton .btn-flavors{
+    color: #fff;
+    background: none;
+    border: 3px solid #fff;
+    border-radius: 0px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 24px;
+    padding: 5px 40px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#enjoy .boton .btn-flavors:hover{
+    color: #fff;
+    border: 3px solid #000;
+    background: #000;
+}
+
+#events{
+    background: url(../img/events.jpg);
+    background-size: cover;
+    min-height: 100vh;
+}
+
+
+#events .row .col-events{
+    padding-top: 300px;
+}
+
+
+#events h1{
+    color: #fff;
+    /*line-height: 500px;*/
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 140px;
+    letter-spacing: 0.2em;
+}
+
+#events h3{
+    color: #fff;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 3em;
+}
+
+#events .boton .btn-flavors{
+    color: #fff;
+    background: none;
+    border: 3px solid #fff;
+    border-radius: 0px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 24px;
+    padding: 5px 40px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#events .boton .btn-flavors:hover{
+    color: #fff;
+    border: 3px solid #000;
+    background: #000;
+}
+
+#cream{
+    background: url(../img/cream.png);
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.container-fluid .tap{
+    height: 130px;
+}
+
+.container-fluid .tap h3{
+    line-height: 130px;
+    font-size: 30px;
 }
