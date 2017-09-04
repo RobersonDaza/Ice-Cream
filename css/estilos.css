@@ -1,0 +1,29 @@
+section{
+    background: url(../img/fondo.png);
+    background-size: cover;
+    min-height: 850px;
+}
+
+header .menu{
+    display: inline-block;
+}
+
+header .logo{
+    display: inline-block;
+    text-align: center;
+    padding: 10px 0 10px 160px;
+}
+
+#ice{
+    width: 100px;
+}
+
+header .container-fluid .redes{
+    display: inline-block;
+    text-align: right;
+}
+
+header .container-fluid .redes nav a i{
+    color: #000;
+    font-size: 24px;
+}
