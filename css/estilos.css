@@ -6,6 +6,7 @@ section{
 
 header .menu{
     display: inline-block;
+    font-size: 18px;
 }
 
 header .logo{
@@ -57,7 +58,7 @@ header .menu .nav .active{
 }
 
 .container .row .columna{
-    padding-top: 400px;
+    padding-top: 310px;
 }
 
 .container .row .col h4{
@@ -87,6 +88,7 @@ header .menu .nav .active{
     font-size: 24px;
     padding: 5px 40px;
     margin-top: 20px;
+    margin-bottom: 50px;
     cursor: pointer;
 }
 
@@ -110,7 +112,7 @@ header .menu .nav .active{
 .container-fluid .section-flavors-text h3{
     font-family: 'Saira Extra Condensed', sans-serif;
     letter-spacing: 0.1em;
-    padding-top: 130px;
+    padding-top: 45px;
 }
 
 .container-fluid .section-flavors-text h4{
@@ -133,6 +135,7 @@ header .menu .nav .active{
     padding: 5px 40px;
     margin-top: 20px;
     text-align: center;
+    cursor: pointer;
 }
 
 .container-fluid .section-flavors-text button:hover{
@@ -144,12 +147,13 @@ header .menu .nav .active{
 #enjoy{
     background: url(../img/enjoy.png);
     background-size: cover;
+    background-attachment: fixed;
     min-height: 100vh;
 }
 
 
 #enjoy .row .col-enjoy{
-    padding-top: 300px;
+    padding-top: 200px;
 }
 
 
@@ -181,6 +185,7 @@ header .menu .nav .active{
     padding: 5px 40px;
     margin-top: 20px;
     text-align: center;
+    cursor: pointer;
 }
 
 #enjoy .boton .btn-flavors:hover{
@@ -192,12 +197,13 @@ header .menu .nav .active{
 #events{
     background: url(../img/events.jpg);
     background-size: cover;
+    background-attachment: fixed;
     min-height: 100vh;
 }
 
 
 #events .row .col-events{
-    padding-top: 300px;
+    padding-top: 200px;
 }
 
 
@@ -229,6 +235,7 @@ header .menu .nav .active{
     padding: 5px 40px;
     margin-top: 20px;
     text-align: center;
+    cursor: pointer;
 }
 
 #events .boton .btn-flavors:hover{
@@ -249,5 +256,12 @@ header .menu .nav .active{
 
 .container-fluid .tap h3{
     line-height: 130px;
-    font-size: 30px;
+    font-size: 40px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    letter-spacing: 0.1em;
+}
+
+.container-fluid .column-gallery{
+    padding: 0;
+    cursor: pointer;
 }
