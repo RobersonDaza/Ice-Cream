@@ -126,7 +126,7 @@ header .menu .nav .active{
 }
 
 .container-fluid .section-flavors-text p{
-    padding: 30px 100px;
+    padding: 30px 60px;
     font-family: 'Saira Extra Condensed', sans-serif;
     text-align: center;
 }
@@ -274,17 +274,46 @@ header .menu .nav .active{
 
 /*MEDIAQUERIES*/
 
+@media screen and (max-width: 1200px) {
+    .container-fluid .section-flavors-text h3{
+        font-size: 24px;
+    }
+
+    .container-fluid .section-flavors-text p{
+        padding: 0px;
+    }
+
+    .container-fluid .section-flavors-text button{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container-fluid .section-flavors-text p{
+        padding: 0px;
+        font-size: 16px;
+    }
+
+    .container-fluid .section-flavors-text button{
+        margin: 0;
+        font-size: 20px;
+    }
+
+}
+
 @media screen and (max-width: 768px) {
     .container .row .col h1{
         font-size: 80px;
         text-align: center;
     }
 
-    .container-fluid .section-flavors-text{
+    /*.container-fluid .section-flavors-text{
         padding-bottom: 40px;
-    }
+    }*/
 
     .container-fluid .section-flavors-text p{
-        padding: 20px;
+        padding: 15px 30px;
+        font-size: 18px
     }
+
 }
