@@ -171,6 +171,7 @@ header .menu .nav .active{
     text-transform: uppercase;
     font-size: 140px;
     letter-spacing: 0.2em;
+    text-align: center;
 }
 
 #enjoy h3{
@@ -221,6 +222,7 @@ header .menu .nav .active{
     text-transform: uppercase;
     font-size: 140px;
     letter-spacing: 0.2em;
+    text-align: center;
 }
 
 #events h3{
@@ -299,12 +301,27 @@ header .menu .nav .active{
         font-size: 20px;
     }
 
+    #enjoy h1{
+        text-align: center;
+    }
+
+    #events h1{
+        text-align: center;
+    }
+
+
 }
 
 @media screen and (max-width: 768px) {
     .container .row .col h1{
         font-size: 80px;
         text-align: center;
+    }
+    #enjoy h1{
+        font-size: 80px;
+    }
+    #events h1{
+        font-size: 80px;
     }
 
     /*.container-fluid .section-flavors-text{
@@ -315,5 +332,7 @@ header .menu .nav .active{
         padding: 15px 30px;
         font-size: 18px
     }
+
+
 
 }
