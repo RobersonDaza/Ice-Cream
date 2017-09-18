@@ -285,12 +285,43 @@ footer h3{
     padding-bottom: 10px;
 }
 
+footer p{
+    font-size: 20px;
+}
+
 footer label{
     font-size: 1.75rem;
+
 }
 
 footer .form-control{
     background-color: #E8E8E8;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 20px;
+    color: #3E371E;
+}
+
+footer .button{
+    border: 3px solid #E8E8E8;
+    background-color: inherit;
+    color: #E8E8E8;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 20px;
+}
+
+footer nav a{
+    color: #fff;
+    font-size: 2rem;
+}
+
+footer nav a:hover{
+    color: #E8E8E8;
+    font-size: 2rem;
+}
+
+.container .row .derechos p{
+    padding-left: 95px;
+    font-size: 1rem;
 }
 
 /*MEDIAQUERIES*/
@@ -306,6 +337,10 @@ footer .form-control{
 
     .container-fluid .section-flavors-text button{
         margin: 0;
+    }
+
+    .container .row .derechos p{
+        padding-left: 80px;
     }
 }
 
@@ -328,7 +363,9 @@ footer .form-control{
         text-align: center;
     }
 
-
+    .container .row .derechos p{
+        padding-left: 60px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -352,6 +389,7 @@ footer .form-control{
         font-size: 18px
     }
 
-
-
+    .container .row .derechos p{
+        padding-left: 0px;
+    }
 }
